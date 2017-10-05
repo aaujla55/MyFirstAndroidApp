@@ -1,0 +1,14 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/rest1"
+            android:title="@string/res_kegsteakhouse" />
+        <item
+            android:id="@+id/rest2"
+            android:title="@string/res_amsterdam" />
+        <item
+            android:id="@+id/rest3"
+            android:title="@string/res_overeasy" />
+
+</menu>

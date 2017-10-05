@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Snack Time</string>
+
+    <!-- Cuisines Screen Strings-->
+    <string name="american">American</string>
+    <string name="italian">Italian</string>
+    <string name="chinese">Chinese</string>
+
+    <!--MenuFoodItems Screen Strings-->
+    <!--American-->
+    <string name="res_kegsteakhouse">The Keg Steakhouse</string>
+        <string name="kegsteakhouse_food_1">Steak &amp; Crab</string>
+        <string name="kegsteakhouse_food_2">Steak &amp; Cajun Shrimp</string>
+        <string name="kegsteakhouse_food_3">Cauliflower Steak</string>
+        <string name="kegsteakhouse_food_4">Steakhouse Salad</string>
+
+    <string name="res_amsterdam">Amsterdam BrewHouse</string>
+        <string name="amsterdam_food_1">Amsterdam Pretzel</string>
+        <string name="amsterdam_food_2">Chicken Wings</string>
+        <string name="amsterdam_food_3">Brewers Board</string>
+        <string name="amsterdam_food_4">Hand-Cut Poutine</string>
+
+    <string name="res_overeasy">Over Easy</string>
+        <string name="overeasy_food_1">Eggs Bruscheta</string>
+        <string name="overeasy_food_2">Breakfast Burrito</string>
+        <string name="overeasy_food_3">Smoked Salmon</string>
+        <string name="overeasy_food_4">Vegetarian Skillet</string>
+
+   <!--Italian-->
+    <string name="res_italianBistro">Remezzo Italian Bistro</string>
+        <string name="italianBistro_food_1">Scallops &amp; Bacon</string>
+        <string name="italianBistro_food_2">Spring Rolls</string>
+        <string name="italianBistro_food_3">Bruschetta</string>
+        <string name="italianBistro_food_4">Mussels</string>
+
+    <string name="res_fabbrica">Fabbrica</string>
+        <string name="fabbrica_food_1">Pasta</string>
+        <string name="fabbrica_food_2">Meatballs</string>
+        <string name="fabbrica_food_3">Ricotta Gnocchi</string>
+        <string name="fabbrica_food_4">Pizza</string>
+
+    <string name="res_ascari">Ascari Enoteca</string>
+        <string name="ascari_food_1">Breadsticks</string>
+        <string name="ascari_food_2">Olives</string>
+        <string name="ascari_food_3">Peperoni Imbotti</string>
+        <string name="ascari_food_4">Soup e Salsa</string>
+
+    <!--Chinese-->
+    <string name="res_dingho">Ding-Ho Chinese Food</string>
+    <string name="dingho_food_1">Chow Mein</string>
+    <string name="dingho_food_2">Beef Noodles</string>
+    <string name="dingho_food_3">Shangai Noodles</string>
+    <string name="dingho_food_4">Chicken Noodles</string>
+
+    <string name="res_timchoi">Tim Choi</string>
+    <string name="timchoi_food_1">Chilli Chicken</string>
+    <string name="timchoi_food_2">To Fu</string>
+    <string name="timchoi_food_3">Sasame Chicken Noodles</string>
+    <string name="timchoi_food_4">Kung Po Shrimp</string>
+
+    <string name="res_luckychinese">Lucky Chinese</string>
+    <string name="luckychinese_food_1">Fried Squids</string>
+    <string name="luckychinese_food_2">Jumbo Shrimp with Broccoli</string>
+    <string name="luckychinese_food_3">Jumbo Shrimp with Lobster</string>
+    <string name="luckychinese_food_4">Fried Rice</string>
+
+
+</resources>

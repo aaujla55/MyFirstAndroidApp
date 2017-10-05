@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amandeepaujla.restappaujlalab2.DisplayOrder">
+
+        <TextView
+            android:id="@+id/txtViewOrderDetails"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:paddingBottom="50px"
+            android:paddingLeft="30px"
+            android:paddingTop="50px"
+            android:text="Order Details"
+            android:textColor="@android:color/background_light"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:id="@+id/txtViewOrderFood"
+            android:layout_below="@+id/txtViewOrderDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/blue"
+            android:padding="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/lblName"
+            android:layout_below="@+id/txtViewOrderFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/txtViewCusName"
+            android:layout_toRightOf="@+id/lblName"
+            android:layout_alignTop="@+id/lblName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/lblCard"
+            android:layout_below="@+id/lblName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Card"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/txtcreditNumber"
+            android:layout_toRightOf="@+id/lblCard"
+            android:layout_alignTop="@+id/lblCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/lblPostalCard"
+            android:layout_below="@+id/lblCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:text="Postal Code" />
+
+        <TextView
+            android:id="@+id/txtpostal"
+            android:layout_toRightOf="@+id/lblPostalCard"
+            android:layout_alignTop="@+id/lblPostalCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            />
+
+    <TextView
+        android:id="@+id/txtthankyou"
+        android:layout_below="@+id/lblPostalCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:text="Thank you for chosing Snack Time!!!" />
+
+
+
+
+
+</RelativeLayout >

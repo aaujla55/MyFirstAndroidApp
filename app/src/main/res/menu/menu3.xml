@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rest7"
+        android:title="@string/res_dingho" />
+    <item
+        android:id="@+id/rest8"
+        android:title="@string/res_timchoi" />
+    <item
+        android:id="@+id/rest9"
+        android:title="@string/res_luckychinese" />
+</menu>

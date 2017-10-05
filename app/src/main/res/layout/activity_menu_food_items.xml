@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/foodlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amandeepaujla.restappaujlalab2.MenuFoodItems"
+    android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtviewRest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorAccent"
+            android:paddingBottom="50px"
+            android:paddingLeft="30px"
+            android:paddingTop="50px"
+            android:text="Select Restaurant"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+            />
+
+
+    <CheckBox
+        android:id="@+id/chckBoxFood1"
+        android:layout_width="wrap_content"
+        android:layout_height="82sp"
+        android:textColor="@color/blue"
+        android:textSize="30sp"
+        app:buttonTint="@color/blue"
+        android:visibility="invisible"/>
+
+    <CheckBox
+        android:id="@+id/chckBoxFood2"
+        android:layout_width="wrap_content"
+        android:layout_height="82sp"
+        android:textColor="@color/blue"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:buttonTint="@color/blue"/>
+
+    <CheckBox
+        android:id="@+id/chckBoxFood3"
+        android:layout_width="wrap_content"
+        android:layout_height="90sp"
+        android:textColor="@color/blue"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:buttonTint="@color/blue"/>
+
+    <CheckBox
+        android:id="@+id/chckBoxFood4"
+        android:layout_width="wrap_content"
+        android:layout_height="82sp"
+        android:textColor="@color/blue"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:buttonTint="@color/blue"/>
+
+    <Button
+        android:id="@+id/btnNextCustomerDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="PleaseOpen"
+        android:layout_marginTop="15dp"
+        android:background="?attr/colorAccent"
+        android:visibility="invisible"
+        android:textColor="@android:color/background_light"
+        android:text="Next"
+        />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="backtoC"
+        android:text="Back"
+        android:layout_marginTop="2dp"
+        android:background="?attr/colorAccent"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/rest4"
+        android:title="@string/res_italianBistro" />
+    <item
+        android:id="@+id/rest5"
+        android:title="@string/res_fabbrica" />
+    <item
+        android:id="@+id/rest6"
+        android:title="@string/res_ascari" />
+</menu>

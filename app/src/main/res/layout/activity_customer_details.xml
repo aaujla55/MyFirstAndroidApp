@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amandeepaujla.restappaujlalab2.CustomerDetails">
+
+
+    <TextView
+        android:id="@+id/txtviewDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorAccent"
+        android:paddingBottom="50px"
+        android:paddingLeft="30px"
+        android:paddingTop="50px"
+        android:text="Please enter your info"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtViewItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5px"
+        android:padding="5dp"
+        android:text="Ordered Items"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/txtViewFoods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="50"
+        android:textSize="15sp"
+        android:textColor="@color/blue"
+        android:padding="5dp"
+        android:layout_marginBottom="5px"/>
+
+    <TextView
+        android:id="@+id/txtViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="5dp"
+        android:text="Name"
+        android:layout_marginBottom="5px"
+        />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:layout_marginBottom="5px"
+         />
+
+
+
+    <TextView
+        android:id="@+id/txtViewCreditCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Credit Card"
+        android:layout_marginBottom="5px"/>
+
+    <EditText
+        android:id="@+id/editTextCredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="5dp"
+        android:layout_marginBottom="5px"/>
+
+
+    <TextView
+        android:id="@+id/txtViewPostalCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Postal Code"
+        android:layout_marginBottom="5px"/>
+
+    <EditText
+        android:id="@+id/editTextPostalCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:padding="5dp"
+        android:layout_marginBottom="5px"/>
+
+    <Button
+        android:id="@+id/btnNextToDisplayOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openCheckout"
+        android:layout_marginTop="84dp"
+        android:text="Checkout"
+        android:background="?attr/colorAccent"
+        android:textColor="@android:color/background_light"
+         />
+
+    <Button
+        android:id="@+id/btnbacktoMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="BacktoMenu"
+        android:layout_marginTop="2dp"
+        android:text="Back"
+        android:background="?attr/colorAccent"
+        android:textColor="@android:color/background_light"/>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amandeepaujla.restappaujlalab2.Cuisines"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txtviewCuisines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorAccent"
+        android:paddingBottom="50px"
+        android:paddingLeft="30px"
+        android:paddingTop="50px"
+        android:text="Please select any cuisine"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_Cuisine_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.97"
+        >
+
+        <RadioButton
+            android:id="@+id/amer"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/american"
+            android:textColor="@color/blue"
+            android:textSize="30sp"
+            app:buttonTint="@color/blue" />
+
+        <RadioButton
+            android:id="@+id/ital"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/italian"
+            android:textColor="@color/blue"
+            android:textSize="30sp"
+            app:buttonTint="@color/blue"/>
+
+        <RadioButton
+            android:id="@+id/chi"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/chinese"
+            android:textColor="@color/blue"
+            android:textSize="30sp"
+            app:buttonTint="@color/blue"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNextToMenu"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:background="?attr/colorAccent"
+        android:onClick="openMenuFoodItems"
+        android:text="Next"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+</LinearLayout>
